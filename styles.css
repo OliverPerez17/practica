@@ -1,0 +1,42 @@
+:root{
+
+    --colorFondo: #343541;
+    --colorNavegacion: #f1202123;
+    --secundario: #d3d2cde7;
+}
+
+html {
+    box-sizing: border-box;
+    font-size:  62.5%;
+}
+body{
+    background-color: var(--colorFondo);
+    font-size: 1.6rem;
+}
+
+h1,h2 {
+    text-align: center;
+    color: var(--secundario);
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 2.3rem;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.barra-navegacion {
+    background-color: var(--colorNavegacion);
+    
+    display: flex;
+    justify-content: center;
+    /*gap: 2rem; *separacion forma nueva */
+}
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
